@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="./script.js" defer></script>
+  
+  <title>Frontend Mentor | Launch countdown timer</title>
+
+</head>
+<body>
+
+  <h1>
+    We're launching soon
+  </h1>
+
+  <div class="counter">
+    <div class="container container--day">
+      <div class="container--inner">
+        <div class="counter__card" id='days'></div>
+      </div>
+    </div>
+    <div class="container container--hour">
+      <div class="container--inner">
+        <div class="counter__card" id='hours'></div>
+      </div>
+      
+    </div>
+    <div class="container container--minute">
+      <div class="container--inner" id="minutes__card">
+        <div class="counter__card" id='minutes'></div>
+      </div>
+      
+    </div>
+    <div class="container container--second">
+      <div class="container--inner" id="seconds__card">
+        <div class="counter__card" id='seconds'></div>
+      </div>
+
+    </div>
+    <p>Days</p>
+    <p>Hours</p>
+    <p>Minutes</p>
+    <p>Seconds</p>
+    <div class="overlay">
+      <div class="overlay__card"></div>
+      <div class="overlay__card"></div>
+      <div class="overlay__card"></div>
+      <div class="overlay__card"></div>
+    </div>
+  </div>
+
+  <div class="social">
+    <img src="./images/icon-facebook.svg" alt="facebook">
+    <img src="./images/icon-pinterest.svg" alt="pinterest">
+    <img src="./images/icon-instagram.svg" alt="instagram">
+  </div>
+
+</body>
+</html>
